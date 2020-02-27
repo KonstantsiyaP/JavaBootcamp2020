@@ -18,4 +18,7 @@ public 	class Employee {
 		return name;
 		
 	}
+
+    public void setSalary(int i) {
+    }
 }

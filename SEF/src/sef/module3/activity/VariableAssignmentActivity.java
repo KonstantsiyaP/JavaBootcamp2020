@@ -13,8 +13,11 @@ public class VariableAssignmentActivity {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		
-		// 1- Declare a variable of type int and assign it default value.
+		int MyInteger;
+		MyInteger = 14;
+		System.out.println(MyInteger);
+
+		// 1- Decdlare a variable of type int and assign it default value.
 		// 2- Update the value 
 		// 3- Print updated value to the console
 

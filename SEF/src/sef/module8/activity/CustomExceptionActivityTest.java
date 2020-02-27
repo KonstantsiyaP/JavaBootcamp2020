@@ -5,11 +5,16 @@ package sef.module8.activity;
 
 public class CustomExceptionActivityTest {
 
+    public static void main(String[] arg) {
+        CustomExceptionActivityTest obj = new CustomExceptionActivityTest();
+validateUser("John");
+
+    }
 	//1 - Type main method and call validateUser() from it.
 	//Call this method with different names to test it 
 
 
-void validateUser(String name)
+void validateUser(String name) throws CustomExceptionActivityTest {}
 {
 	//array of names
 String []validUsers={"John","Mike","Shanti","Stacie"};
